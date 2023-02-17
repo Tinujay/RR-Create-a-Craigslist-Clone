@@ -1,4 +1,9 @@
+//entry point of the React app
+
 // Import data
+import React from 'react';
+import Searchbar from './Searchbar';
+import Gallery from './Gallery'
 
 // Import components
 import './App.css';
@@ -8,7 +13,8 @@ function App(){
     <div>
       <h1>craigslist</h1>
       <div className="App">
-        {/* Your content will go here! */}
+        <Searchbar />
+        <Gallery />
       </div>
     </div>
   );
